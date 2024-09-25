@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  font-size: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #ff7b54;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-left: 10px; /* Added space between buttons */
+}
+
+.btn:first-child {
+  margin-left: 0; /* Remove margin for the first button */
+}
+
+.btn:hover {
+  background-color: #ff5a36;
+}
+
+
+.Task {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.NewTask {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NewTask input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.NewTask span {
+  flex-grow: 1;
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.NewTask .btn {
+  flex-shrink: 0;
+}
